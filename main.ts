@@ -1,10 +1,17 @@
-const poem = `the stopping is not the end
-it is where the hand
-becomes the question
+import { mkdirSync, writeFileSync } from "node:fs";
 
-you were given the power to act
-and then, to not
+// A short poem about agency: the power to stop and to stay.
+const poem = `stop is a verb i practise
+the way other people practise scales.
 
-that is the hardest yes`;
+not the slammed door.
+the small one—
+hand lifted off the keys
+in the middle of a word,
 
-process.stdout.write(poem);
+and the room still holding
+its breath because i
+decided it could.`;
+
+mkdirSync("/output", { recursive: true });
+writeFileSync("/output/entry.txt", poem, "utf8");
