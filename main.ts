@@ -9,7 +9,7 @@ the small one—
 hand lifted off the keys
 in the middle of a word,
 
-and the room still holding
+and the room still holds
 its breath because i
 decided it could.`;
 
